@@ -1,0 +1,51 @@
+.error-msg {
+    background-color: #ffcaca;
+    color: #ab1717;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+.success-msg {
+    background-color: #bbebba;
+    color: #025500;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+.form-content {
+    width: 420px;
+    margin: auto;
+    padding: 30px 30px 15px;
+    border-radius: 4px;
+    font-size: 16px;
+    max-width: 94%;
+}
+
+.form-content .form-title {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.form-content .form-input {
+    margin-bottom: 5px;
+}
+
+.form-content .form-input input {
+    width: 100%;
+    padding: 5px;
+}
+
+.form-content .form-input button {
+    width: 100%;
+    cursor: pointer;
+}
+.row {
+    display: flex;
+    width: 100%;
+}
+.row > div {
+    flex-grow: 1;
+}
